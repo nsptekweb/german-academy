@@ -539,28 +539,6 @@
     </div>
     <!--====== TEASTIMONIAL PART ENDS ======-->
    
-    <div class="container">
-    <div class="row">
-        <div class="col-md-3 col-sm-6">
-            <div class="counter1">
-                <div class="counter1-icon">
-                    <i class="fa fa-globe"></i>
-                </div>
-                <span class="counter1-value">1248</span>
-                <h3>Web Designing</h3>
-            </div>
-        </div>
-        <div class="col-md-3 col-sm-6">
-            <div class="counter1 purple">
-                <div class="counter1-icon">
-                    <i class="fa fa-users"></i>
-                </div>
-                <span class="counter1-value">1044</span>
-                <h3>Web Development</h3>
-            </div>
-        </div>
-    </div>
-</div>
     <!--====== PUBLICATION PART START ======-->
     
     <section id="publication-part" class="pt-115 pb-120 gray-bg">
