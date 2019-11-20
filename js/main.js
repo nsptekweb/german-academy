@@ -18,17 +18,6 @@ $(function() {
         $('.preloader').delay(500).fadeOut(500);
     });
     
-    
-    //===== Search
-    
-    $('#search').on('click', function(){
-        $(".search-box").fadeIn(600);
-    });
-    $('.closebtn').on('click', function(){
-        $(".search-box").fadeOut(600);
-    });
-    
-    
     //===== Sticky
     
     $(window).on('scroll', function(event) {    
@@ -325,11 +314,10 @@ $(function() {
     
     //===== Counter Up
     
-    $('.counter').counterUp({
+    $('.counter-value').counterUp({
         delay: 10,
         time: 3000
     });
-    
     
     //===== Slick testimonial Slied
     
@@ -394,31 +382,7 @@ $(function() {
       }
     });
     
+   
     
     
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-});
-
-
-$(document).ready(function(){
-  $('.counter-value').each(function(){
-      $(this).prop('Counter',0).animate({
-          Counter: $(this).text()
-      },{
-          duration: 3500,
-          easing: 'swing',
-          step: function (now){
-              $(this).text(Math.ceil(now));
-          }
-      });
-  });
 });
