@@ -68,28 +68,29 @@
                                     </li>
                                    
                                     <li class="nav-item">
-                                        <a href="courses.html">About us</a>
+                                        <a href="about.php">About us</a>
                                         <ul class="sub-menu">
-                                            <li><a href="courses.html">Testimonials</a></li>
+                                            <li><a href="testimonials.php">Testimonials</a></li>
                                         </ul>
                                     </li>
                                     <li class="nav-item">
-                                        <a href="events.html">Image Albums </a>
+                                        <a href="gallery.php">Gallery </a>
                                         <ul class="sub-menu">
-                                            <li><a href="events.html">Image Gallery</a></li>
+                                            <li><a href="image-gallery.php">Image Gallery</a></li>
+                                            <li><a href="image-albums.php">Image Albums</a></li>
                                         </ul>
                                     </li>
                               
                                     <li class="nav-item">
-                                        <a href="blog.html">Blog</a>
+                                        <a href="blog.php">Blog</a>
                                         <ul class="sub-menu">
-                                            <li><a href="blog.html">Blog Category</a></li>
-                                            <li><a href="blog-singel.html">Blog Post</a></li>
+                                            <li><a href="blog-category.php">Blog Category</a></li>
+                                            <li><a href="blog-post.php">Blog Post</a></li>
                                         </ul>
                                     </li>
                                    
                                     <li class="nav-item">
-                                        <a href="contact.html">Contact Us</a>
+                                        <a href="contact.php">Contact Us</a>
                                     </li>
                                 </ul>
                             </div>

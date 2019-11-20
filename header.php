@@ -6,11 +6,9 @@
 
     <!--====== Favicon Icon ======-->
     <link rel="shortcut icon" href="images/Favicon-01.png" type="image/png">
-
     <!--====== Slick css ======-->
     <link rel="stylesheet" href="css/slick.css">
-
-    <!--====== Animate css ======-->
+     <!--====== Animate css ======-->
     <link rel="stylesheet" href="css/animate.css">
     
     <!--====== Nice Select css ======-->
