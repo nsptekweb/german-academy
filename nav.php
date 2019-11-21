@@ -50,7 +50,7 @@
             </div> <!-- container -->
         </div> <!-- header logo support -->
         
-        <div class="navigation" style=" background-color: #ef4723;">
+        <div class="navigation" style=" background: linear-gradient(to top left, #800000 0%, #ef4723 100%);">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12 col-md-12 col-sm-9 col-8">
@@ -69,24 +69,24 @@
                                    
                                     <li class="nav-item">
                                         <a href="about.php">About us</a>
-                                        <ul class="sub-menu">
-                                            <li><a href="testimonials.php">Testimonials</a></li>
-                                        </ul>
+                        
                                     </li>
                                     <li class="nav-item">
-                                        <a href="gallery.php">Gallery </a>
-                                        <ul class="sub-menu">
-                                            <li><a href="image-gallery.php">Image Gallery</a></li>
-                                            <li><a href="image-albums.php">Image Albums</a></li>
-                                        </ul>
+                                        <a href="courses.php">Courses</a>
+                        
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="testimonials.php">Testimonials</a>
+                        
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="image-albums.php">Gallery </a>
+                                        
                                     </li>
                               
                                     <li class="nav-item">
                                         <a href="blog.php">Blog</a>
-                                        <ul class="sub-menu">
-                                            <li><a href="blog-category.php">Blog Category</a></li>
-                                            <li><a href="blog-post.php">Blog Post</a></li>
-                                        </ul>
+                                       
                                     </li>
                                    
                                     <li class="nav-item">

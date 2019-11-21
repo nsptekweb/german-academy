@@ -1,11 +1,10 @@
 <!doctype html>
 <html lang="en">
 <head>
-   
 <?php include 'header.php'; ?>
-  
+
     <!--====== Title ======-->
-    <title>Image-Albums</title>
+    <title>Image-Gallery</title>
     
 </head>
 
@@ -31,8 +30,6 @@
     <!--====== HEADER PART START ======-->
     
     <?php include 'nav.php'; ?>
-    </header>
-    
     <!--====== HEADER PART ENDS ======-->
    
     <!--====== SEARCH BOX PART START ======-->
@@ -59,11 +56,11 @@
             <div class="row">
                 <div class="col-lg-12">
                     <div class="page-banner-cont">
-                        <h2>Image-Albums</h2>
+                        <h2>Image-Gallery</h2>
                         <nav aria-label="breadcrumb">
                             <ol class="breadcrumb">
                                 <li class="breadcrumb-item"><a href="#">Home</a></li>
-                                <li class="breadcrumb-item active" aria-current="page">Image-Albums</li>
+                                <li class="breadcrumb-item active" aria-current="page">Image-Gallery</li>
                             </ol>
                         </nav>
                     </div>  <!-- page banner cont -->
@@ -71,43 +68,57 @@
             </div> <!-- row -->
         </div> <!-- container -->
     </section>
-    <br><br> <br><br>
+    <br><br>
     <!--====== PAGE BANNER PART ENDS ======-->
    
-<div class="container">
-    <h2 class="text-center">Images Galley</h2>
-    <div class="row">
-	    <div class="col-sm-3">
-	      <a href="images.php">  <div class="item"><img src="images/publication/p-1.jpg" class="img-thumbnail"></div>
-		    
-	    </div></a>
-	    <div class="col-sm-3">
-        <a href="images.php"> <div class="item"><img src="images/publication/p-2.jpg" class="img-thumbnail"></div>
-	    </div></a>
-	    <div class="col-sm-3">
-        <a href="images.php"> <div class="item"><img src="images/publication/p-3.jpg" class="img-thumbnail"></div>
-	    </div></a>
+    <!--====== EVENTS PART START ======-->
+<a href="images.php"> <img src="images/event/e-1.jpg"></a>
+<h2>Thumbnail Image</h2>
+<p>Click on the image to enlarge it.</p>
 
-    <div class="col-sm-3">
-        <a href="images.php"> <div class="item"><img src="images/publication/p-4.jpg" class="img-thumbnail"></div>
-	    </div></a>
+<a target="_blank" href="img_forest.jpg">
+  <img src="images/event/e-1.jpg" alt="Forest" style="width:150px">
+</a>
+<div class="container">
+    <div class="row">
+        <div class="col-md-4 col-sm-6">
+            <div class="box">
+                <img src="images/event/e-1.jpg">
+                <div class="box-content">
+                    <h3 class="title">Williamson</h3>
+                    <span class="post">Web designer</span>
+                </div>
+                <ul class="icon">
+                    <li><a href="#"><i class="fa fa-search"></i></a></li>
+                    <li><a href="#"><i class="fa fa-link"></i></a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="col-md-4 col-sm-6">
+            <div class="box">
+                <img src="images/event/e-1.jpg">
+                <div class="box-content">
+                    <h3 class="title">Miranda Roy</h3>
+                    <span class="post">Web developer</span>
+                </div>
+                <ul class="icon">
+                    <li><a href="#"><i class="fa fa-search"></i></a></li>
+                    <li><a href="#"><i class="fa fa-link"></i></a></li>
+                </ul>
+            </div>
+        </div>
     </div>
 </div>
-   
-</div>
-    <!--====== EVENTS PART START ======-->
-   
-    <!--====== EVENTS PART ENDS ======-->
-   
     <!--====== FOOTER PART START ======-->
-    
     <?php include 'footer.php'; ?>
-    
     <!--====== FOOTER PART ENDS ======-->
-   
-   
-    
-    
 
+    
+    
+    
+    
+    
+    
+   
 </body>
 </html>
